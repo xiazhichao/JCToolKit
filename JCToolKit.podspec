@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JCToolKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JCToolKit.'
+  s.summary          = 'JCToolKit快速开发框架是用于快速高效开发的工具库'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                        JCToolKit快速开发框架是用于快速高效开发的工具库
                        DESC
 
   s.homepage         = 'https://github.com/<GITHUB_USERNAME>/JCToolKit'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'JiaMiao' => 'suzhou136@nahuasuan.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/JCToolKit.git', :tag => s.version.to_s }
+  s.author           = { 'JiaMiao' => 'hxjiamiao@126.com' }
+  s.source           = { :git => 'https://github.com/SerilesJam/JCToolKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
   s.source_files = 'JCToolKit/Classes/**/*'
   

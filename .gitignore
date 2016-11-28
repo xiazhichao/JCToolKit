@@ -32,5 +32,3 @@ Carthage
 #
 # Pods/
 Example/Pods
-*.xcworkspace
-xcuserdata
